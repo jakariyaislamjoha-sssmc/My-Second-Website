@@ -7,26 +7,36 @@
   </head>
   <body>
     <h2>Place Your Order</h2>
-    <form action="">
+    <form action="thanks.html">
       <label>Name: </label>
-      <input type="text" /><br />
+      <input type="text" required /><br />
       <br />
       <label>Contact Number:</label>
-      <input type="number" />
+      <input type="number" required />
       <br /><br />
 
       <label for="">EmailL:</label>
-      <input type="email" /> <br />
+      <input type="email" required /> <br />
       <br />
-
-      <select name="Catagory" id="Catagory">
+      <label for=" ">Select Catagoty</label>
+      <select name="Catagory" id="Catagory" required>
         <option value="">--select--</option>
         <option value="">Foods</option>
 
         <option value="">Drinks</option>
       </select>
+      <h4>Select Your Items</h4>
+      <input type="checkbox" name="item " id="" />CocaCola <br />
+      <input type="checkbox" name="item " />Pepsi <br />
+      <input type="checkbox" name="item " />7up <br />
+      <input type="checkbox" name="item " />Fanta <br />
+      <input type="checkbox" name="item " />Lemonade <br />
+      <input type="checkbox" name="item " />Speed <br />
+      <input type="checkbox" name="item " />Mango Juice <br />
+      <input type="checkbox" name="item " />Sprite <br />
 
-      
+      <input type="submit" />
+      <input type="reset" />
     </form>
   </body>
 </html>
